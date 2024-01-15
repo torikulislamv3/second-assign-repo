@@ -1,0 +1,60 @@
+body {
+    margin: 10px;
+}
+
+/* navigation section styles */
+
+.navbar {
+    margin: 35px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.agency-related{
+    display: flex;
+   align-items: center;
+    
+    
+}
+.navbar img {
+    width: 50px;
+    height: 30px;
+    margin-right: 0;
+}
+.nav-items{
+   display: flex;
+   align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    margin-right: 40px;
+}
+.agency-related .agency-name {
+    color: #131318;
+font-family: Mulish;
+font-size: 26px;
+font-weight: 800;
+}
+.agency-related .agency-name>.special-color {
+    color: #FF5400;
+font-family: Mulish;
+font-size: 26px;
+font-weight: 800;
+}
+
+.nav-items a{
+    color: #424247;
+text-align: center;
+font-family: Mulish;
+font-size: 15px;
+font-weight: 400;
+}
+#home{
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 15px;
+font-weight: 700;
+}
+
+
