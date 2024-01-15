@@ -443,3 +443,82 @@ margin-top: 10px;
     display: flex;
     justify-content: space-around;
 }
+
+.lit-box {
+    width: 280px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+margin-top: -180px;
+margin-left: 160px;
+}
+.lit-box-tit{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 0;
+}
+
+.lit-box-des {
+    color: #FFF;
+font-family: Mulish;
+font-size: 26px;
+font-weight: 800;
+margin-top: 5px;
+}
+
+.lit-box p{
+    padding-top: 20px;
+}
+/* footer section styles */
+
+.agency-related-footer{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 0;
+}
+
+.agency-related-footer img{
+    width: 50px;
+    height: 30px;
+    margin: 0;
+}
+.footer-description {
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.social {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hori-two {
+    width: 600px;
+height: 1px;
+margin-top: 30px;
+background: rgba(19, 19, 24, 0.10);
+margin-bottom: 0;
+}
+
+.fact {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
