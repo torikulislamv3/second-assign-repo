@@ -375,3 +375,71 @@ margin-bottom: 0;
     margin-top: 15px;
     margin-left: 300px;
 }
+
+/* section four styles */
+
+.col-one-four {
+    width: 320px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.four-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+margin-top: 15px;
+margin-bottom: 0;
+margin-left: 20px;
+}
+.four-description {
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 23px;
+margin-top: 5px;
+margin-bottom: 0;
+margin-left: 20px;
+}
+.hori-one {
+    height: 2px;
+    width: 256px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+    margin-bottom: 0;
+}
+
+.input input[type="text"]
+{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 256px;
+
+}
+
+.subscribe {
+    border-radius: 8px;
+background: #FF5400;
+width: 256px;
+height: 35px;
+margin-left: 22px;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 15px;
+font-weight: 800;
+border: none;
+margin-top: 10px;
+}
+
+.section-four {
+    margin: 35px 70px;
+    display: flex;
+    justify-content: space-around;
+}
