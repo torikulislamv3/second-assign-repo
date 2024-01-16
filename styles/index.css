@@ -568,7 +568,7 @@ line-height: normal;
 
 /* display none temporary */
 
-.navbar, .third-section, .section-four, .bonus, footer {
+.navbar, .section-four, .bonus, footer {
     display: none;
 }
 
@@ -740,6 +740,31 @@ margin-top: 40px;
         }
         .sec-box-title{
             padding-bottom: 70px;
+        }
+
+        /* main- third section done */
+
+        .third-section {
+            margin: 10px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .t-f-row {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fa-box , .sa-box {
+            height: 100%;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .t-s-row {
+            height: 100%;
+            width: 100%;
+            margin-left: 0px;
         }
 }
 
