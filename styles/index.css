@@ -582,10 +582,10 @@ line-height: normal;
 
     /* header section responsive */
 
-        .navbar
+    
 
     .header-section-title{
-        padding-top: 30px;
+        padding-top: 0px;
     }
     .dashboard-items {
         display: flex;
@@ -598,7 +598,8 @@ background: rgba(255, 255, 255, 0.30);
 max-width: 270px;
 height: 210px;
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 10px;
+padding-bottom: 30px;
     }
     .header-sec-one{
         margin: 10px 10px;
@@ -738,6 +739,14 @@ margin-top: 40px;
             padding-bottom: 70px;
         }
 
+        .fst-box{
+            margin-bottom: 0;
+        }
+
+        .secnd-box {
+            margin-top: 15px;
+        }
+
         /* main- third section done */
 
         .third-section {
@@ -786,13 +795,13 @@ margin-top: 40px;
             margin-left: 70px;
         }
         input[type="text"] {
-            margin-left: 30px;
+            margin-left: 60px;
             height: 50px;
         }
 
         .subscribe {
             margin-top: 20px;
-            margin-left: 60px;
+            margin-left: 50px;
             margin-bottom: 20px;
             height: 50px;
         }
@@ -832,14 +841,17 @@ margin-top: 40px;
         /* bonus section navbar */
 
 .navbar {
+    margin: 10px 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .nav-items{
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 }
 
