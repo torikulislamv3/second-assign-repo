@@ -611,6 +611,12 @@ padding-bottom: 30px;
         height: 30px;
         width: 100%;
      }
+     #where {
+        margin-left: 40px;
+        width: 180px;
+        height: 30px;
+        
+     }
 
     #select, input[type="text"] {
         margin-top: 15px;
@@ -692,6 +698,7 @@ padding-bottom: 30px;
         border-radius: 15px ;
         background: url('../Images/Rectangle\ 6.png');
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .second-box {
@@ -701,6 +708,8 @@ padding-bottom: 30px;
         border: none;
         border-radius: 15px ;
         background: url('../Images/Rectangle\ 7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .third-box {
@@ -721,6 +730,8 @@ padding-bottom: 30px;
         border: none;
         border-radius: 15px;
         background: url('../Images/Rectangle\ 11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .secnd-box {
@@ -774,6 +785,10 @@ padding-bottom: 30px;
 
         /* main- four section responsive  */
 
+
+        #name-soc, #email-soc {
+            padding-left: 70px;
+        }
         .section-four {
             margin: 10px 10px;
             display: flex;
@@ -801,7 +816,7 @@ padding-bottom: 30px;
 
         .subscribe {
             margin-top: 20px;
-            margin-left: 50px;
+            margin-left: 80px;
             margin-bottom: 20px;
             height: 50px;
         }
