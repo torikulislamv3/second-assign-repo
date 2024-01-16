@@ -568,7 +568,7 @@ line-height: normal;
 
 /* display none temporary */
 
-.navbar, .section-four, .bonus, footer {
+.navbar, footer {
     display: none;
 }
 
@@ -765,6 +765,55 @@ margin-top: 40px;
             height: 100%;
             width: 100%;
             margin-left: 0px;
+        }
+
+        /* main- four section responsive  */
+
+        .section-four {
+            margin: 10px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .col-one-four{
+            height: 100%;
+            width: 100%;
+        }
+
+        .col-two-four {
+            height: 100%;
+            width: 100%;
+        }
+
+        .lit-box {
+            margin-left: 70px;
+        }
+        input[type="text"] {
+            margin-left: 30px;
+            height: 50px;
+        }
+
+        .subscribe {
+            margin-top: 20px;
+            margin-left: 60px;
+            margin-bottom: 20px;
+            height: 50px;
+        }
+
+        /* main- bonus section responsive */
+
+        .bonus {
+            margin-left: 0px;
+            margin-top: 70px;
+            height: 100%;
+            width: 100%;
+        }
+
+        #submit {
+            height: 50px;
+            width: 150px;
+            margin-bottom: 25px;
         }
 }
 
