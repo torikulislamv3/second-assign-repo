@@ -568,9 +568,9 @@ line-height: normal;
 
 /* display none temporary */
 
-/* .navbar, .first-section, .sec-section, .third-section, .section-four, .bonus, footer {
+.navbar, .sec-section, .third-section, .section-four, .bonus, footer {
     display: none;
-} */
+}
 
 
 /* mobile responsive */
@@ -654,6 +654,16 @@ margin-top: 40px;
     font-weight: 400;
     text-align: center;
     padding-right: 18px;
+    }
+
+    /* main - first section responsive */
+
+    .first-section {
+        margin: 10px 10px;
+        flex-direction: column;
+    }
+    .f-col-two {
+        margin-top: 15px;
     }
     
 }
