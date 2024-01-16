@@ -593,7 +593,7 @@ line-height: normal;
         border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
 max-width: 270px;
-height: 200px;
+height: 210px;
 margin: 0 auto;
 margin-top: 40px;
     }
@@ -601,21 +601,14 @@ margin-top: 40px;
         margin: 10px 10px;
     
     }
-
-    input[type="text"] {
-        margin-top: 15px;
-        width: 180px;
+     input[type="text"]{
+        position: relative;
+        right: 40px;
         height: 30px;
-        border-radius: 8px;
-        border: none;
-        color: rgba(19, 19, 24, 0.50);
-    font-family: Mulish;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    padding-right: 18px;
-    }
-    #select {
+        width: 100%;
+     }
+
+    #select, input[type="text"] {
         margin-top: 15px;
         width: 200px;
         height: 30px;
